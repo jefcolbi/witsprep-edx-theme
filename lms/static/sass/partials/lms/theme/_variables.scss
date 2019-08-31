@@ -1,0 +1,14 @@
+// Sample red theme to demonstrate SASS overrides
+
+// Theme colors
+//
+// Note: define colors needed by your theme first
+
+// Define the primary red color
+$purple: #832161;
+
+// Make red the primary color
+$primary: $purple;
+
+// Initialize the Open edX Bootstrap theme
+@import 'edx-bootstrap/sass/open-edx/theme';
